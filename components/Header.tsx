@@ -5,7 +5,6 @@ export default function Header() {
   return (
     <header className=" space-x-5">
       <Link href="/">home</Link>
-      <Link href="/">about</Link>
       <Link href="/work">work</Link>
       <Link href="/">activites</Link>
       <Link href="/">resume</Link>
