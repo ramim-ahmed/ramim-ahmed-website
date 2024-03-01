@@ -4,11 +4,25 @@ import React from "react";
 export default function Header() {
   return (
     <header className=" space-x-5">
-      <Link href="/">home</Link>
-      <Link href="/work">work</Link>
-      <Link href="/">activites</Link>
-      <Link href="/">resume</Link>
-      <Link href="/">github</Link>
+      <Link className="text-white border-b" href="/">
+        home
+      </Link>
+      <Link className="text-white" href="/work">
+        work
+      </Link>
+      <Link className="text-white" href="/">
+        activites
+      </Link>
+      <Link className="text-white" href="/">
+        resume
+      </Link>
+      <a
+        className="text-white"
+        href="https://github.com/ramim-ahmed"
+        target="_blank"
+      >
+        github
+      </a>
     </header>
   );
 }

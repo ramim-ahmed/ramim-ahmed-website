@@ -8,9 +8,9 @@ export default function Description() {
       <p className="text-base leading-6 text-[#E8E5E5]">
         I'm working most loveable language javascript. Javascript is a
         programming language that is most uses client-side and server-side. so
-        I'm able to work javascript ecosystem which is help us for builing
-        projects open-source technology like react, next.js and redux as client-side and node, express
-        uses as server-side.
+        I'm able to work javascript ecosystem which is help us for building
+        projects open-source technology like react, next.js and redux as
+        client-side and node, express uses as server-side.
       </p>
       <div className="mt-16 lg:flex gap-5">
         <img

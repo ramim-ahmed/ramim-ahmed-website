@@ -11,10 +11,20 @@ export default function AuthUse() {
         some my projects in client-side.
       </p>
       <div className=" mt-8 flex items-center">
-        <a href="https://firebase.google.com/" target="_blank" className="border-b border-slate-300 px-10 py-3 text-xl mr-10">
+        <a
+          href="https://firebase.google.com/"
+          target="_blank"
+          className="border-b border-slate-300 px-10 py-3 text-xl mr-10 text-white"
+        >
           firebase
         </a>
-        <a href="https://auth0.com/" target="_blank" className="border-b border-slate-300 px-10 py-3 text-xl">auth0</a>
+        <a
+          href="https://auth0.com/"
+          target="_blank"
+          className="border-b border-slate-300 px-10 py-3 text-xl text-white"
+        >
+          auth0
+        </a>
       </div>
     </div>
   );
